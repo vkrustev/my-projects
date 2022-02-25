@@ -1,0 +1,31 @@
+@import "./../styles/variables.scss";
+
+.footer {
+    background: $dark;
+    width: 100%;
+    height: $headerHeight;
+  
+ 
+
+    &__content {
+        overflow: hidden;
+        color: $light;
+        margin: 0 auto;
+        max-width: 1920px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 100;
+
+        &__logo {
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: $light;
+            background-color: $dark;
+            border:none;
+        }
+    }
+}

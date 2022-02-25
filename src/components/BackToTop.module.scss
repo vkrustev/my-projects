@@ -1,0 +1,13 @@
+@import "./../styles/variables.scss";
+
+.button{
+    position: fixed;
+    z-index: 999999;
+    height:50px;
+    width:100px;
+    bottom:50px;
+    right:50px;
+    font-size:20px;
+    background-color: $dark;
+    color:$light;
+}

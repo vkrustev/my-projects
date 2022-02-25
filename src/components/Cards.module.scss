@@ -1,0 +1,35 @@
+@import "./../styles/variables.scss";
+.cards{
+   
+    margin:50px;
+    @media (max-width:768px) {
+        &__flex{
+            flex-direction: column ;
+            justify-content: center;
+            margin:0;
+            align-items: center;
+        }
+        
+    }
+    &__flex{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      
+    }
+    &__text{
+        margin: 50px;
+        padding: 50px;
+    }
+  
+    &__img{
+        width:700px;
+        height: 500px;
+        object-fit: cover;
+        margin:50px;
+        padding: 50px;
+        align-items: center;
+    
+
+    }
+}
