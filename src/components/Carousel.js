@@ -61,8 +61,7 @@ useEffect(()=>{
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 3,
-        className: "center",
-        centerMode: true,
+       
         responsive: [
             {
               breakpoint: 1024,
